@@ -11,4 +11,17 @@ public abstract class Salon {
         this.appointment = appointment;
         this.price = price;
     }
+
+    //using toString to print
+
+    @Override
+    public String toString() {
+        return "Salon{" +
+                "full name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", appointment='" + appointment + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
+
